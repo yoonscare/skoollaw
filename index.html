@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>학사 규정 도우미</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>학사 규정 도우미</h1>
+            <p>학칙, 시행세칙, 성적처리규정에 대해 궁금하신가요?</p>
+        </header>
+        
+        <div class="cards-container">
+            <div class="card" onclick="openGPTs('rules')">
+                <div class="card-content">
+                    <h2>학칙 & 시행세칙</h2>
+                    <p>학교 규칙과 시행세칙에 대해 알아보세요</p>
+                    <div class="icon">📚</div>
+                </div>
+            </div>
+            
+            <div class="card" onclick="openGPTs('grades')">
+                <div class="card-content">
+                    <h2>성적처리규정</h2>
+                    <p>성적 처리 관련 규정을 확인하세요</p>
+                    <div class="icon">📊</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
